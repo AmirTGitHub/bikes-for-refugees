@@ -82,6 +82,34 @@ body {
 	color: white;
 }*/
 /* Headings */
+/*.articles:nth-child(1){
+	float: left;
+	width: 50%;
+
+}*/
+div.primary-content section.articles article.article:first-child{
+	float: left;
+	width: 40%;
+	margin: 10px;
+	padding: 10px;
+	border:solid 1px #ccc;
+}
+div.primary-content section.articles article.article:last-child{
+	float: right;
+	width: 40%;
+	margin: 10px;
+	padding: 10px;
+	border:solid 1px #ccc;
+}
+div.primary-content section.articles article.article:first-child:hover{
+	background-color: #ccc;
+	border:solid 1p #808080;
+}
+div.primary-content section.articles article.article:last-child:hover{
+	background-color: #ccc;
+	border:solid 1p #808080;
+}
+
 .heading-underline {
 	position: relative;
 	margin-bottom: 2em;
